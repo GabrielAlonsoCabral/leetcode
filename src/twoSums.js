@@ -35,7 +35,7 @@ function findNearByTwoSums(nums, target){
             output.push(...[index-1,index])                 
         }
 
-        previousNumber = num        
+        previousNumber = num
     })
 
     return output
@@ -57,5 +57,3 @@ function findTwoSumsGlobal(nums, target){
     })    
     return output
 }
-
-//console.log(twoSum([3,2,3],6))
